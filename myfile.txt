@@ -1,0 +1,4 @@
+this is my first file program,
+when i tried to diectly read
+an already existing file it removed all of its 
+content for some reason unknown to me

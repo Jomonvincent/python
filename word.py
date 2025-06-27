@@ -1,0 +1,5 @@
+words=input("Enter something: ")
+words=words.replace(',','')
+words=words.split()
+long=max(words,key=len)
+print(f"'{long}' is the longest word with length= {len(long)}")

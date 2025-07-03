@@ -1,3 +1,4 @@
+#program to get extension to a file
 ex=input("Enter the file name: ")
 if '.' in ex:
     ex=ex.split('.')

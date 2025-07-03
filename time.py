@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import time
 print("Current time in sec:",time.time())
 print("Current time:",time.ctime())
@@ -19,16 +13,4 @@ print("Time:-current minute",t.tm_min)
 print("Time:-currentsec",t.tm_sec) 
 print("Time:-currentweek day",t.tm_wday)
 print("Time:-current year day",t.tm_yday)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 

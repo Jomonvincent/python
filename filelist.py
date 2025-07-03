@@ -7,8 +7,8 @@ newline=[line.strip() for line in lines]
 print(newline)
 
 #OR
-#newline=[]
-#for line in lines:
-#    newline.append(line.strip())
-#print(newline)
+'''newline=[]
+for line in lines:
+    newline.append(line.strip())
+print(newline)'''
          

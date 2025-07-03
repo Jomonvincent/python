@@ -1,3 +1,4 @@
+#program to find divisor/factors of a number
 n=35
 i=1
 while(i!=n+1):

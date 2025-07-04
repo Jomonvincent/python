@@ -1,3 +1,4 @@
+#fibonnaci program
 def fib_normal(n):
     fib=[]
     if n>=1:
@@ -17,7 +18,7 @@ print(fib_normal(3))
 
 
 
-
+#fibonnaci with recursion
 def fibonacci(n):
     fib = [0, 1]
     for i in range(2, n):

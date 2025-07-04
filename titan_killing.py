@@ -4,8 +4,18 @@ m=5             #no of squads
 ad=[10,20,30,20,10] #damage of every squad
 rt=[1,2,5,2,1]
 na=[0]*len(ad)
-cd=0
 tc=0
 while d>0:
-    if tc
+    cd=0
+    i=0
+    while(i<m):
+        if tc>=na[i]:
+            cd+=ad[i]
+            na[i]+=rt[i]
+        i+=1
+    tc+=1
+    d-=cd
+print(tc) 
+
+
     

@@ -1,7 +1,7 @@
-d=200
+d=300
 m=5
-ad=[10,20,30,20,10]
-rt=[1,2,5,2,1]
+ad=[10,20,30,10,20]
+rt=[1,2,3,1,2]
 na=[0]*len(ad)
 tc=0
 while d>0:
@@ -16,6 +16,10 @@ while d>0:
     tc+=1
 print(tc)
 
+#or we can read input as
+d,m=map(int,input("Enter damage and no. of squads").split())
+ad=list(map(int,input().split()))
+rt=list(map(int,input().split()))
 
     
 

@@ -1,27 +1,32 @@
 class node:
-    def __init___(self,val):
+    def __init__(self,val):
         self.val=val
         self.left=None
         self.right=None
 class bst:
-    def __init(self):
+    def __init__(self):
         self.root=None
-    def insert(self,root,data):
+    def insert(self,data,root):
         if root is None:
-            root=node(data)
-        elif root.val>data:
-            root.left=node(data)
+            return node(data)
+        elif root.val>data :
+            root.left=self.insert(data,root)
         elif root.val<data:
-            root.right=node(data)
+            root.right=self.insert(data,root)
+        return root
     def traverse(self,root):
         if root is None:
             return 0
         else:
-            print(root.val,end="-->")
+            print(root.val,end=" ")
             self.traverse(root.left)
             self.traverse(root.right)
 t=bst()
-for i in range(10):
-    t.insert(int(input("Enter the node value : ")))
+root=None
+values=[23,34,345,45,4,4,5,54]
+for i in values:
+    
+    t.insert(i,root)
+
 t.traverse()
 

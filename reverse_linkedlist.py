@@ -1,4 +1,4 @@
-def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+def reverseList(self, head)
     pre:ListNode=None
     cur:Listnode=head
     forw:Listnode=None
@@ -8,4 +8,3 @@ def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         pre=cur
         cur=forw
     return pre
-    
